@@ -3,6 +3,7 @@ import "./wallet_item.css";
 import { Row, Col } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
 
+
 class Waller_item extends React.Component {
   constructor(props) {
     super(props);
@@ -10,13 +11,15 @@ class Waller_item extends React.Component {
   render() {
     let { company_name, company_abbr, company_logo, percent_value } = this.props.company;
 
+    const pathToImgs = require.context('./img', true);
+
     return (
       <div className="wallet_item">
         <Card>
           <CardBody>
             <Row>
               <Col sm="3" className="noleft">
-                <CardImg src={`../img/${this.props.company.company_logo}.png`} />
+                <CardImg src={pathToImgs(`./${this.props.company.company_logo}.svg`)} />
                 <CardSubtitle>{this.props.company.company_abbr}</CardSubtitle>
                 <div className="dot"></div>
               </Col>

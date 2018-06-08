@@ -8,7 +8,7 @@ class MyWallet extends React.Component {
     this.state = {
       companies: [
         {
-          company_logo: "logo",
+          company_logo: "HOT",
           company_name: "Atlas Holdings Group Inc.",
           company_abbr: "AHGI",
           percent_value: "43.04"
@@ -26,31 +26,31 @@ class MyWallet extends React.Component {
           percent_value: "94.19"
         },
         {
-          company_logo: "HOT.svg",
+          company_logo: "HOT",
           company_name: "Hottechi Sp. z o.o.",
           company_abbr: "HOT",
           percent_value: "12.44"
         },
         {
-          company_logo: "HOT.svg",
+          company_logo: "HOT",
           company_name: "Ontomedia Group GmbH",
           company_abbr: "OGB",
           percent_value: "84.98"
         },
         {
-          company_logo: "HOT.svg",
+          company_logo: "HOT",
           company_name: "Atlas Holdings Group Inc.",
           company_abbr: "AHGI",
           percent_value: "43.04"
         },
         {
-          company_logo: "HOT.svg",
+          company_logo: "HOT",
           company_name: "Tonik Studio Inc.",
           company_abbr: "TNK",
           percent_value: "68.12"
         },
         {
-          company_logo: "HOT.svg",
+          company_logo: "HOT",
           company_name: "Funholding GmbH",
           company_abbr: "FUN",
           percent_value: "94.19"
