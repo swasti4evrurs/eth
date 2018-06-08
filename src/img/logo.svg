@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="25" viewBox="0 0 147 25">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FE0075" d="M12.502 12.5h12.497C25 5.597 19.403 0 12.5 0a12.442 12.442 0 0 0-6.85 2.045L12.501 12.5"/>
+        <path fill="#01D6C0" d="M12.513 25A12.49 12.49 0 0 1 2.047 19.35 12.442 12.442 0 0 1 .001 12.5h12.5l6.853 10.452A12.44 12.44 0 0 1 12.513 25"/>
+        <path fill="#FDE500" d="M5.648 2.045A12.564 12.564 0 0 0 .492 9.033 12.6 12.6 0 0 0 0 12.5h12.501a20595790.762 20595790.762 0 0 0-6.245-9.527l-.609-.928"/>
+        <text fill="#30303A" font-family=".AppleSystemUIFont" font-size="14">
+            <tspan x="39" y="21">ETHCOMPANIES</tspan>
+        </text>
+    </g>
+</svg>

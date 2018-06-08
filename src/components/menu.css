@@ -1,0 +1,23 @@
+.menu .nav .nav-item {
+  width: 100%;
+}
+.menu .nav .last_two {
+  position: absolute;
+  bottom: 6.5%;
+}
+.menu .nav .nav-item a {
+  display: block;
+  padding: 15px 0;
+  font-family: Colfax-Medium;
+  font-size: 16px;
+  color: rgba(48,48,58,0.4);
+  border-right: 3px solid #fff;
+  margin: 10px 0;
+}
+.menu .nav .nav-item a:hover {
+  border-color: #01d6c0;
+  background-image: linear-gradient(to left, rgba(1, 214, 192, 0.05), rgba(1, 214, 192, 0));
+}
+.menu .nav .nav-item a span {
+  padding: 0 20px;
+}

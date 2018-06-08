@@ -1,0 +1,23 @@
+.recentlyInvested {
+  background-color: #fff;
+  margin: 10px 0 0;
+}
+.recentlyInvested .recentlyInvested_top {
+  padding: 20px;
+  box-shadow: 0 1px 0 0 rgba(48, 48, 58, 0.07);
+  margin-bottom: 2px;
+}
+.recentlyInvested .recentlyInvested_top h1 {
+  font-family: Colfax-Medium;
+  font-size: 16px;
+  color: #30303a;
+  float: left;
+}
+.recentlyInvested .recentlyInvested_bottom {
+  padding: 0 20px;
+  overflow-x: auto;
+}
+.recentlyInvested .recentlyInvested_bottom tabel {
+  width: 100%;
+  margin: 0;
+}

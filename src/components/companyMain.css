@@ -1,0 +1,18 @@
+.companyMain {
+  background-color: #f6f6f6;
+  height: 100%;
+  padding: 15px 30px;
+}
+.companyMain .myWallet_outer {
+  padding: 0 20px 0 0;
+}
+.companyMain .companyUpdates .update_section .card .company_names, .companyMain .companyUpdates .update_section .card .card-subtitle {
+  display: none;
+}
+.companyMain .companyUpdates .update_section .card .card-text {
+  padding: 10px 0 0;
+}
+.companyMain .comp_mid {
+  padding: 0 20px 0 0;
+}
+

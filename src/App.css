@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Colfax-Regular';
+  src: url(./fonts/Colfax-Regular.otf);
+}
+@font-face {
+  font-family: 'Colfax-Bold';
+  src: url(./fonts/Colfax-Bold.otf);
+}
+@font-face {
+  font-family: 'Colfax-Medium';
+  src: url(./fonts/Colfax-Medium.otf);
+}
+@font-face {
+  font-family: 'LucidaGrande';
+  src: url(./fonts/LucidaGrande.ttf);
+}
+.noleft {
+  padding-left: 0!important;
+}
+.noright {
+  padding-right: 0!important;
+}
+.nopadding {
+  padding: 0!important;
+}
+.nomargin {
+  margin: 0 !important;
+}
+/* .col-sm-2 {
+  max-width: 15.60% !important;
+  -ms-flex: 0 0 15.60% !important;
+    flex: 0 0 15.60% !important;
+}
+.col-sm-10 {
+  max-width: 84.40% !important;
+  -ms-flex: 0 0 84.40% !important;
+    flex: 0 0 84.40% !important;
+}
+.col-sm-7 {
+  max-width: 50.13% !important;
+  -ms-flex: 0 0 50.13% !important;
+    flex: 0 0 50.13% !important;
+}
+.col-sm-5 {
+  max-width: 38.46% !important;
+  -ms-flex: 0 0 38.46% !important;
+    flex: 0 0 38.46% !important;
+} */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0!important;
+}
+.box {
+  float: left;
+  width: 100%;
+}
+.ver_center {
+  display: flex;
+  align-items: center;
+}
+a:hover {
+  text-decoration: none !important;
+}

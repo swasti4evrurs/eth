@@ -1,0 +1,51 @@
+.myWallet {
+  background-color: #fff;
+}
+.myWallet .wallet_top {
+  padding: 15px 15px 15px 20px;
+  box-shadow: 0 1px 0 0 rgba(48, 48, 58, 0.07);
+  margin-bottom: 2px;
+}
+.myWallet .wallet_top h1 {
+  font-family: Colfax-Medium;
+  font-size: 16px;
+  color: #30303a;
+  float: left;
+  padding: 15px 0 0 0;
+}
+.myWallet .wallet_top a {
+  font-family: Colfax-Medium;
+  font-size: 14px;
+  text-align: center;
+  color: #fe0075;
+  float: right;
+  display: block;
+  background-color: #fff2f8;
+  padding: 15px;
+}
+.myWallet .wallet_top a:hover {
+  color: #3cd6c0;
+  background: rgba(1, 214, 192,0.1);
+}
+.myWallet .wallet_top a span {
+  padding: 0 20px 0 0;
+}
+.myWallet .wallet_bottom {
+  padding: 0 20px;
+  overflow-y: auto;
+}
+.myWallet .wallet_bottom .cardbtm_inner {
+  height: 750px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: transparent;  
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(48, 48, 58, 0.2);
+  border-radius: 15px;
+}

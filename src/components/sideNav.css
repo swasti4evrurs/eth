@@ -1,0 +1,43 @@
+.sideNav {
+  background-color: #fff;
+  padding: 50px 0;
+}
+.sideNav .sideNav_inner {
+  height: 100vh;
+  position: relative;
+}
+.sideNav .logo h1 {
+  font-family: Colfax-Regular;
+  font-size: 14px;
+  color: #30303a;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sideNav .logo h1 span {
+  display: inline-block;
+  padding: 0 20px 0 0;
+  margin: -5px 0 0;
+}
+.sideNav .logo h1 span img {
+  animation: App-logo-spin infinite 20s linear;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.sideNav .discover {
+  text-align: center;
+  padding: 40px 0;
+}
+.sideNav .discover a {
+  color: #fff;
+  background-color: #fe0075;
+  padding: 15px 30px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'LucidaGrande';
+  font-size: 14px;
+}
+.sideNav .discover a:hover {
+  background: #3cd6c0;
+}

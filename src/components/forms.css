@@ -1,0 +1,230 @@
+.forms {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+}
+.forms .logo h1 {
+    font-family: Colfax-Regular;
+    font-size: 14px;
+    color: #30303a;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 60px;
+}
+.forms .logo h1 span {
+  display: inline-block;
+  padding: 0 20px 0 0;
+}
+.forms .logo h1 span img {
+  animation: App-logo-spin infinite 20s linear;
+}
+ @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.forms .form_section {
+  background: #fff;
+  box-shadow: 0 80px 80px 0 rgba(48, 48, 58, 0.03);
+}
+.forms .form_section .form-text {
+  padding: 40px 0 25px;
+  text-align: center;
+  margin: 0;
+  font-family: Colfax-Medium;
+  font-size: 16px;
+  color: #30303a;
+  -webkit-box-shadow: 0 1px 0 0 rgba(48, 48, 58, 0.07);
+  box-shadow: 0 1px 0 0 rgba(48, 48, 58, 0.07);
+}
+.forms .form_section .form_main .form_main_btm {
+  padding: 0 30px 30px;;
+}
+.forms .form_section .form_main {
+  padding: 30px;
+}
+.incorporate .forms .form_section .form_main {
+  padding: 0;
+}
+.incorporate .forms .form_section .form_main .form_main_inner {
+  height: 495px;
+  overflow-y: auto;
+  padding: 30px 30px 0 30px;
+}
+.forms .form_section .form_main .input-group .floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 58px;
+  top: 26px;
+  transition: all 0.2s ease;
+  opacity: 0.5;
+  font-family: Colfax-Regular;
+  font-size: 14px;
+  color: #30303a;
+}
+.forms .form_section .form_main .input-group {
+  position: relative;
+  width: 100%;
+  float: left;
+  margin: 0 0 15px;
+  background-color: #f6f6f6;
+}
+.forms .form_section .form_main .input-group input {
+  height: 60px;
+  background: transparent;
+  border: 0;
+  padding: 30px 15px 13px 0;
+  font-family: Colfax-Regular;
+  font-size: 14px;
+  color: #30303a;
+}
+.forms .form_section .form_main .input-group input:-webkit-autofill {
+  background: transparent!important;
+}
+.forms .form_section .form_main .input-group textarea {
+  height: 150px;
+  background: transparent;
+  border: 0;
+  padding: 30px 15px 13px 0;
+  font-family: Colfax-Regular;
+  font-size: 14px;
+  color: #30303a;
+  resize: none;
+}
+.forms .form_section .form_main .input-group .input-group-prepend {
+  padding: 10px 22px;
+}
+.forms .form_section .form_main .input-group input:focus ~ .floating-label, .forms .form_section .form_main .input-group textarea:focus ~ .floating-label {
+  top: 10px;
+  left: 58px;
+  font-size: 9px;
+}
+.forms .form_section .form_main .input-group input:not(:focus):valid ~ .floating-label, .forms .form_section .form_main .input-group textarea:not(:focus):valid ~ .floating-label{
+  top: 10px;
+  left: 58px;
+  font-size: 9px;
+}
+.forms .form_section .form_main .input-group input:focus, .forms .form_section .form_main .input-group textarea:focus {
+  box-shadow: none;
+}
+.forms .form_section .form_main .input-group .input-group-prepend.txtarea_add {
+  padding: 10px 22px 100px;
+}
+.forms .form_section .form_main button.btns {
+  background-color: #fe0075;
+  font-family: Colfax-Medium;
+  font-size: 14px;
+  color: #ffffff;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  height: 60px;
+  margin: 10px 0 0;
+}
+.forms .form_section .form_main button:hover {
+  background: #3cd6c0;
+}
+.forms .back {
+  position: absolute;
+  left: 60px;
+}
+.forms .back:hover, .forms .signin h3 a:hover {
+  color: #3cd6c0;
+}
+.forms .back {
+  font-family: Colfax-Medium;
+  font-size: 14px;
+  color: #fe0075;
+}
+.forms .back span {
+  padding: 0 20px 0 0;
+}
+.forms .signin h3 {
+  font-family: Colfax-Regular;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: #30303a;
+  padding: 40px 0 0;
+}
+.forms .signin h3 a {
+  color: #fe0075;
+}
+.forms .form_section .form_main p {
+  font-family: Colfax-Regular;
+  font-size: 18px;
+  line-height: 1.44;
+  color: #30303a;
+  padding: 0 30px 15px;
+}
+.incorporate .forms .form_section .form_main button.btns {
+  margin: 20px 0 0;
+}
+.filepond--label-action {
+  text-decoration: none !important;
+  font-family: Colfax-Medium;
+  font-size: 14px;
+  color: rgba(254, 0, 117);
+  padding: 5px 0 0!important;
+}
+.filepond--label-action span {
+  padding: 0 20px 0 0;
+}
+.filepond--drip {
+  background: rgb(254, 0, 117) !important;
+  border-radius: 0 !important;
+  opacity: 0.1 !important;
+  height: 60px !important;
+}
+.filepond--root * {
+  border-radius: 0 !important;
+}
+.filepond--file-action-button {
+  background-color: transparent !important;
+}
+.filepond--item-panel {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.filepond--list-scroller {
+  position: absolute !important;
+  top: 30px !important;
+}
+.filepond--drop-label label {
+  padding: 5px 0 0!important;
+}
+.filepond--file {
+  font-family: Colfax-Regular !important;
+  font-size: 14px !important;
+  color: #30303a !important;
+  padding-left: 1.25em!important;
+}
+.filepond--file .filepond--action-remove-item {
+  right: -15px !important;
+  width: auto !important;
+  opacity: 0.5 !important;
+  font-family: Colfax-Regular !important;
+  font-size: 14px !important;
+  color: #30303a  !important;
+}
+.filepond--file-info .filepond--file-info-sub {
+  display: none!important;
+}
+.filepond--file-info .filepond--file-info-main {
+  line-height: 2.2!important;
+}
+.filepond--file-info {
+  transform: none!important;
+}
+.filepond--item::before {
+  content: url(../img/document.svg);
+  position: absolute;
+  left: -15px;
+  top: 8px;
+}
+.forms .form_section .form_main .input-group .error {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-family: Colfax-Regular;
+  font-size: 14px;
+  color: #ff3455;
+}

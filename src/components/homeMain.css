@@ -1,0 +1,8 @@
+.homeMain {
+  background-color: #f6f6f6;
+  height: 100%;
+  padding: 30px;
+}
+.homeMain .myWallet_outer {
+  padding: 0 20px 0 0;
+}
